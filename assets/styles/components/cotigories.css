@@ -1,0 +1,67 @@
+.cotigories {
+    width: 1230px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.cotigories_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cotigories_cards_card {
+    width: 135.89px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.cotigories_cards_card img {
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    mix-blend-mode: multiply;
+}
+
+.cotigories_cards_card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 539px;
+    font-size: 14px;
+}
+
+.cotigories_cards_card:hover img {
+    transform: translateY(-10%);
+    transition: 0.3s;
+}
+
+.cotigories_bottom {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.cotigories_btn {
+    cursor: pointer;
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: #1e1e1e !important;
+    font-weight: 591px;
+    font-size: 18px;
+    margin-top: 2px;
+}
